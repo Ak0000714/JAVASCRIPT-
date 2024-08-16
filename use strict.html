@@ -1,0 +1,236 @@
+<script>
+    // use strict
+    /* task 11 Write a script without using “use strict” and try to assign a value to an 
+undeclared variable. Note the result.
+    b = 5
+    console.log(b);
+    */
+
+    /*  Task 12: Enable “use strict” mode and repeat the above action, noting the 
+   difference.
+    "usestrict";
+    a = 5
+    console.log(a);
+
+    */
+
+    /*Task 13: In “use strict” mode, try to delete a variable, function, or function 
+  parameter
+    "usestrict";
+    c = 25
+    delete c
+
+    function fuc() { }
+    delete fuc
+
+    function fuc(a, b) { }
+    delete a
+    delete b
+    */
+
+    /*Task 14: Assign a value to an undeclared variable without “use strict” and then 
+with “use strict”
+   let f = 435
+    console.log(f)
+
+    "usestrict";
+
+    da = 234
+    console.log(da);
+*/
+    /*  Task 15: Declare a variable with a reserved keyword in “use strict” mode. 
+    "usestrict";
+
+    for=5
+    console.log(as);
+
+*/
+
+    //variables
+    /*
+     Task 16: Declare variables using let, const, and var. Discuss when each should be 
+     used. 
+    
+        var s = 5;  // we can use any where in the program we can re declare it
+        console.log(s)
+    
+        let s = 5 // it is constant variable  we can't re assign
+        console.log(s)
+    
+        const s = 5// same as let 
+        console.log(s)
+    */
+
+    /*Task 17: Attempt to reassign a const variable and observe the result
+    const a = 5;
+    const a = 12;
+    console.log(a); // result Identifier 'a' has already been declared (at use strict.html:66:11)
+*/
+    /*Task 18: Declare a variable without initializing it and print its value. 
+    let d
+    console.log(d);  //result undefined
+*/
+    /*Task 19: Assign a number, string, and boolean value to a variable and print its 
+    type using typeof. 
+
+    let a = 23
+    let c = "string"
+    let d = true
+
+    console.log(typeof (a))
+    console.log(typeof (c))
+    console.log(typeof (d))
+
+*/
+    /*  Task 20: Rename a variable and observe the outcome.
+    
+
+    var c = 10
+    console.log(c);
+
+    var d = 10
+    console.log(d)
+
+    */
+
+    // Data types, Basic operators, maths
+
+    /* Task 21: Create variables of different data types (e.g., string, number, boolean, 
+null, undefined, object). 
+
+    let a = "ajmal"
+    let b = 203
+    let c = true
+    let s = null;
+    var obj = new Object()
+    obj.name = "rocky";
+    obj.age = 21;
+    let e = {
+        name: "a",
+    }
+    e.id = 123;
+    console.log(e)
+    console.log(obj.name, obj.age);
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    //console.log(d)
+    */
+
+    /* Task 22: Use the typeof operator to determine the type of various variables.
+    
+
+    var a = 12
+    var c = "str"
+    var d = true
+    var da = 1234567890123456789012345678901234567890n
+    var as
+/* Task 23: Declare a symbol and print its type.
+    var w = "#"
+    */
+    /* var fun = function () {
+         return " hi "
+     }
+     var arr = ['1', '2', "apple"]
+     console.log(typeof a)
+     console.log(typeof c)
+     console.log(typeof d)
+     console.log(typeof da)
+     console.log(typeof as)
+     console.log(typeof w)
+     console.log(typeof arr)
+ 
+ */
+    /* 24: Assign the value null to a variable and check its type using typeof. 
+    
+    let a = null
+    console.log(a);
+*/
+    /*Task 25: Differentiate between declaring a variable using var and let in terms of 
+    scope. 
+    
+    var we can use any wher in the program reassign same variable again
+    let  varible are in constant we can't reallocate
+    */
+    //Basic operators, maths: 
+    //Task 26: Convert a string to a number using both implicit and explicit conversion.
+    /*let str = "21"
+    let a = str * 1  // implicit automaticaly covert  string to number
+    console.log(a)
+
+    let s = 122;
+    let r = parseInt(s) + 22  // explicit its use number(),parseint to covert string to number;
+    console.log(r)
+    */
+    /*Task 27: Convert a boolean to a string and vice versa. 
+    let a = true
+    let r = String(a)
+    console.log(typeof r)
+*/
+    /* Task 28: Practice basic arithmetic operators (+, -, *, /, %). 
+    let a = 10;
+    let b = 5;
+    console.log(a + b)
+    console.log(a - b)
+    console.log(a * b)
+    console.log(a / b)
+    console.log(a ** b)
+    console.log(a % b)
+*/
+    /* Task 29: Use the ++ and -- operators on a numeric variable.
+    
+    let a = 5
+    console.log(a++)
+    console.log(++a)
+    let c = 5
+    console.log(c--)
+    console.log(--c)
+    console.log(c)
+    console.log(--c)
+    */
+    /*Task 30: Explore the precedence of operators by combining multiple operators in 
+    a single expression.  
+    let a = 2, b = 2;
+
+    let result = a * b + a - b + a / b+a
+    console.log(result)
+*/
+
+    /*: Comparisons, Conditional branching: if, ‘?’
+        Task 31: Compare two numbers using relational operators (>, <, >=, <=). 
+    o Task 32: Use equality () and strict equality (=) operators to compare different data 
+    types and note the differences. 
+    o Task 33: Compare two strings lexicographically. 
+    o Task 34: Use the inequality (!=) and strict inequality (!==) operators to compare 
+    values. 
+    o Task 35: Compare null and undefined using both == and ===.
+    
+
+    let a = 2, b = 4, c = 2, d = -2, str1 = "apple", str2 = "mango";
+    console.log(a > b)
+    console.log(a < b)
+    console.log(a == c)
+    console.log(a >= 3)
+    console.log(a <= 5)
+
+
+    console.log(a == c)
+    console.log(a === d)
+
+    console.log(str1 > str2)
+    console.log(str1 < str2)
+    console.log(str1 <= str2)
+    console.log(str1 >= str2)
+    console.log(str1 == str2)
+
+
+    console.log(a != c)
+    console.log(a !== b)
+
+    console.log(a == d)
+    console.log(a === d)
+
+    */
+
+
+</script>

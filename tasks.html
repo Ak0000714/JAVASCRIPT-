@@ -1,0 +1,143 @@
+<script>
+    // Task 36: Write an if statement that checks if a number is even or odd.
+    /* let a = 3
+     if (a % 2 == 0) {
+         console.log("it is even")
+     }
+     else {
+         console.log("it is odd")
+     }
+ */
+    // Task 37: Use nested if statements to classify a number as negative, positive, or zero.
+    /* let c = -233
+     if (c == 0) {
+         console.log("zero")
+     }
+     else if (c > 0) {
+         console.log("positive")
+     }
+     else {
+         console.log("negative")
+     }
+ */
+    // Task 38: Use the conditional (ternary) operator ‘?’ to rewrite a simple if…else statement.
+    /*let a=prompt("enter the number")
+    let result=(a>0)?console.log("postive"):console.log("negative")
+    */
+    // Task 39: Check the validity of a variable using the ? operator. 
+    /*const a = {
+        name: null // its is used to the vaild user name  it check the valid of property if not it return undefined and null
+    }
+    let username = a.name?.name 
+      console.log(username)
+      */
+    //Task 40: Use the conditional operator to assign a value to a variable based on a condition.
+    /* let age = prompt("enter the age:")
+     let result = (age >= 18) ? console.log("your are eligible to vote") : console.log("your are not eligible to vote")
+     */
+    //Logical operators:
+    // Task 41: Evaluate various combinations of logical operators (&&, ||, !).
+
+    /*  let a = prompt("enter the number:")
+     let b = prompt("enter the number")
+     let c = prompt()
+     if (a == b && a == c) {
+         console.log(a, "equal")
+     }
+     else if (b > a || b > c) {
+         console.log(b,)
+     }
+     else if (a != b) {
+         console.log("a is not equal to b,c")
+     }
+     else {
+         console.log(-1)
+     }
+         */
+    //2: Use logical operators to write a condition that checks if a number is in a given range.
+    /*let a = prompt("enter the age:")
+    if (a > 0 && a < a < 17) {
+        console.log(a, " your not eligible to take driving license")
+    }
+    else if (a >= 18 || a > 19) {
+        console.log(b, "your eligible to take driving license")
+    }
+    else {
+        console.log("not valid")
+    }
+        */
+    // Task 43: Use the NOT (!) operator to invert a boolean value.
+    /*let a =false 
+    let b=!a
+        console.log(b)
+    */
+    //Task 44: Evaluate the short-circuiting nature of logical operators.
+    /*let a = true
+    let b = false
+    console.log(a && b)
+    console.log(a || b)
+    console.log(a != b)
+    */
+    // Task 45: Compare two non-boolean values using logical operators and observe the result.
+    /* let a = "j"
+     let c = "f"
+     console.log(a && c)
+     console.log(a || c)
+     console.log(a != c)
+ */
+    // Functions: 
+    // Task 46: Write a function that takes two numbers as arguments and returns their sum.
+    /* let a = parseInt(prompt())
+     let b = parseInt(prompt())
+     function sum(a, b) {
+         return a + b;
+     }
+     const res = sum(a, b)
+     console.log(res)
+ */
+    //Task 47: Create a function that calculates the area of a rectangle. 
+    /*
+    let len = parseInt(prompt())
+    let breath = parseInt(prompt())
+    function areaofrectangle(len, breath) {
+        return len + breath
+    }
+    console.log(areaofrectangle(len, breath))
+    */
+
+    //Task 48: Declare a function without parameters and call it. 
+    /*function sum() { }
+    console.log(sum("hello"))// undefined*/
+
+    // Task 49: Write a function that returns nothing and observe the default return value.
+    /*
+    let a, b
+
+    function sum(a, b) {
+        return
+    }
+    console.log(sum(1, 3))//undefined
+*/
+    //Task 50: Declare a function with default parameters and call it with different arguments.
+
+    /* let a, b
+ 
+     function sum(a, b) {
+         return a + b
+     }
+     let c=5, d=6
+     console.log(sum(c, d))
+ */
+    /*Task 51: Declare a simple arrow function named greet that takes one 
+    parameter name and returns the string “Hello, name!”. Test your function with 
+    various names.*/
+    let greet = (name) => {
+        return `Hello, ${name}`
+    }
+    console.log(greet("ajmal"))
+
+
+
+
+
+</script>

@@ -1,0 +1,87 @@
+<script>
+    // task 1 Write a simple script that displays “Hello, World!” on the web page using an alert box. 
+    alert("Hello,World");
+
+    /* task 2  Experiment with different data types in*/
+    var string = "hello hai"
+    console.log(string);
+    var number = 123
+    console.log(number);
+    var bigint = 123654676
+    console.log(bigint);
+    var boolean = 1
+    console.log(boolean);
+    var undefined
+    console.log(undefined);
+    let s = null
+    console.log(s);
+    var symbol = "@"
+    console.log(symbol);
+    var a = new Object()
+    a.name = "ajmal"
+    console.log(a.name);
+
+    alert(string + number + bigint + boolean + undefined + s + symbol + a.name);
+
+    /*task 3 Use the console to perform basic math operations like addition,
+   subtraction, multiplication, and division. */
+
+    console.log(10 + 5);
+    console.log(10 - 5);
+    console.log(10 * 5);
+    console.log(10 / 5);
+
+    /* task 4  Declare two strings and concatenate them using the + operator. */
+    let firstname = "Ajmal"
+    let lastname = "khan"
+    document.write(firstname + lastname)
+
+    /* task 5 5: Use the typeof operator to check the data type of various variables.*/
+    console.log(typeof (string));
+    console.log(typeof (number));
+    console.log(typeof (2 + 1));
+    console.log(typeof ("2z" + 1));
+    console.log(typeof ("2" + 1));
+    console.log("a1" + 1);
+
+    /*Task 6: Write a multi-line JavaScript comment and a single-line comment.
+    Explain the difference. */
+
+    // this is singlr line comment is used  to comment with in the line 
+
+    /* this is multi line comment  is used  to comment  for the entire line  or all the lines*/
+
+    /*Task 7: Create a script with both semicolon-separated and not separated lines.
+Note any differences in behavior. */
+    let b = "java"
+    var c = 3; c = 4; c = 5
+    console.log(b); console.log(c);
+
+    // *Task 8: Use proper indentation to format a nested loop.
+
+    for (let i = 0; i < 2; i++) {
+        for (let j = 0; j < 3; j++) {
+            console.log(i + j)
+        }
+    }
+
+    // Task 9: Declare multiple variables in a single line
+
+    var a1 = 23; a2 = 32; a3 = 21;
+    let s1 = 23; s2 = 32; s3 = 12;
+    const q1 = "ajmal"; q2 = "khan"
+    console.log(a1, a2, a3)
+    console.log(s1, s2, s3)
+    console.log(q1 + q2)
+
+    /*Task 10: Place a script tag at the top and bottom of an HTML document. Note
+any differences in behavior
+at top 
+          : Executes before the body content is fully loaded. Might cause issues if it interacts with elements that aren't yet available.
+          
+          at bottom
+           Behavior: Executes after the body content is fully loaded. Ensures all elements are available and improves page load performance.*/
+
+
+
+</script>
